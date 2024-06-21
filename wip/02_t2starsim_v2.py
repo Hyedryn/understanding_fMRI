@@ -4,6 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
 
+import matplotlib as mpl
+mpl.use('Qt5Agg')
 
 # =============================================================================
 def relaxation_T2star(time, S0=100, T2star=28):
